@@ -1,0 +1,314 @@
+<!DOCTYPE HTML>
+
+<!--
+    This is an html document containing the terms and definitions 
+    of Chapter 4 - Networking and the Internet
+-->
+
+<head>
+    <title> Chapter 4 Terminology</title>
+
+    <style>
+        body {
+            margin-top: 3%;
+        }
+
+        h2 {
+            margin: auto;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #256b3d;
+            margin-bottom: 20px;
+        }
+
+        table {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+            font-size: 90%;
+            line-height: 150%;
+            margin-bottom: 70px;
+        }
+
+        td {
+            text-align: left;
+            padding: 5px;
+            border: 1px dotted #b9e2be;
+        }
+
+        th {
+            text-align: left;
+            font-weight: bold;
+            font-size: 110%;
+            padding: 5px;
+            border: 1px dotted #cce4cf;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #cce4cf;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Chapter 4 - Networking and the Internet</h2>
+    <table>
+        <tr>
+            <th>Network Classifications</th>
+        </tr>
+        <tr>
+            <td>LAN</td>
+            <td>a computer network that consists of a collection of computers in a single building or building complex
+            </td>
+        </tr>
+        <tr>
+            <td>MAN</td>
+            <td>a network of intermediate size, such as one spanning a local community</td>
+        </tr>
+        <tr>
+            <td>WAN</td>
+            <td>a network that links machines over greater distance -- perhaps in neighboring cities or on opposite
+                sides of the world</td>
+        </tr>
+        <tr>
+            <th>Network Models</th>
+        </tr>
+        <tr>
+            <td>bus network</td>
+            <td>a classification of network based on topology where the machines are all connected to a common
+                communication line; ex. ethernet</td>
+        </tr>
+        <tr>
+            <td>star network</td>
+            <td>a classification of network based on topology where one machine serves as a central focal point to which
+                all the others are connected; ex. wireless networks</td>
+        </tr>
+        <tr>
+            <th>Protocols</th>
+        </tr>
+        <tr>
+            <td>CSMA/CD Ethernet</td>
+            <td>a protocol with the right to transmit messages to all the machines on the bus, where each machine
+                monitors all the messges but it only keeps those addressed to itself</td>
+        </tr>
+        <tr>
+            <td>CSMA/CD Wifi</td>
+            <td>a protocol which is compatible with wireless networks, where the policy is to avoid colliding with the
+                transmissions of another machine; a collision avoidance protocol</td>
+        </tr>
+        <tr>
+            <th>Combining networks</th>
+        </tr>
+        <tr>
+            <td>repeater</td>
+            <td>a device that passes signals back and forth between the two original buses without considering the
+                meaning of the signals</td>
+        </tr>
+        <tr>
+            <td>bridge</td>
+            <td>a more complex version of the repeater, which connects two buses but does not necessarily pass all
+                messages across the connection</td>
+        </tr>
+        <tr>
+            <td>switch</td>
+            <td>essentially a bridge with mutiple connections, allowing it to connect several buses rather than just two
+            </td>
+        </tr>
+        <tr>
+            <td>router</td>
+            <td>devices that handle the connection between networks to form an internet</td>
+        </tr>
+        <tr>
+            <td>gateway</td>
+            <td>the "point" at which one network is linked to an internet</td>
+        </tr>
+        <tr>
+            <th>Client/server model</th>
+        </tr>
+        <tr>
+            <td>P2P: peer-to-peer</td>
+            <td>a way of distributing files so that one peer may receive a file from another and then provide that file
+                to other peers; more broadly, a system by which two processes comminicate over a network</td>
+        </tr>
+        <tr>
+            <td>distributed system</td>
+            <td>systems thay consist of software units that execute as processes on different computers; ex. cluster
+                computing in which many independent comptuers work closely together to provide computation or services
+                comparable to a much larger machine</td>
+        </tr>
+        <tr>
+            <td>cloud computing</td>
+            <td>a system that allows huge pools of shared computers on the network ban be allocated for use by clients
+                as needed</td>
+        </tr>
+        <tr>
+            <th>Internet Addressing</th>
+        </tr>
+        <tr>
+            <td>Tier-1 ISP</td>
+            <td>an internet service provider that consists of very high-speed, high-capacity, international WANS;
+                thought of as the backbone of the internet</td>
+        </tr>
+        <tr>
+            <td>Tier-2 ISP</td>
+            <td>an internet service provider that tend to be more regional in scope and less potent in their
+                capabilities; along with tier-1, a network of routers that collectively provide the interney's
+                communication infrastructure</td>
+        </tr>
+        <tr>
+            <td>Tier-3(access) ISP</td>
+            <td>an independent internet, sometimes called an intranet, oerated by a single authority that is in the
+                business of supplying internet access to indivual homes and businesses</td>
+        </tr>
+        <tr>
+            <th>IP address</th>
+        </tr>
+        <tr>
+            <td>ICANN</td>
+            <td>a nonprofit corporation established to coordinate the Internet's operation <a
+                    href="https://www.icann.org"> icann.org</a></td>
+        </tr>
+        <tr>
+            <td>DNS</td>
+            <td>a naming database in which internet domain names are located and translated into IP addresses</td>
+        </tr>
+        <tr>
+            <td>TLD: Top-level domain</td>
+            <td>the suffix following the period used to relfect the domain's classification; ex. .edu or .org</td>
+        </tr>
+        <tr>
+            <td>Country-code TLDs</td>
+            <td>two-letter version of a TLD used for specific countries<a
+                    href="https://www.worldstandards.eu/other/tlds"> worldstandards.eu</a></td>
+        </tr>
+        <tr>
+            <th>Internet protocols</th>
+        </tr>
+        <tr>
+            <td>FTP</td>
+            <td>(file transfer protocol) a standard protocol for the transfer of files between computer sustems from one
+                client to one server over a TCP/IP network</td>
+        </tr>
+        <tr>
+            <td>HTTP</td>
+            <td>an application protocol used for data communication and is the base of data communication on the World
+                Wide Web</td>
+        </tr>
+        <tr>
+            <td>SMTP</td>
+            <td>a way that two computers on the network may interact when transmitting an email message from one host to
+                the other</td>
+        </tr>
+        <tr>
+            <th>World Wide Web</th>
+        </tr>
+        <tr>
+            <td>URL</td>
+            <td>a unique address given to each document on the web that is used to locate and retrieve said document
+            </td>
+        </tr>
+        <tr>
+            <td>client-side activities</td>
+            <td>the activity that occurs on the user's computer; also known as front end</td>
+        </tr>
+        <tr>
+            <td>server-side activities</td>
+            <td>the activity that occurs on a server and generates dynamic HTML pages that are sent to the client</td>
+        </tr>
+        <tr>
+            <th>Internet four-layer software</th>
+        </tr>
+        <tr>
+            <td>application layer</td>
+            <td>Layer of the TCP/IP protocol stack that sends and receives data for particular applications such as DNS,
+                HTTP, and SMTP.</td>
+        </tr>
+        <tr>
+            <td>transport layer</td>
+            <td>responsible for facilitating host-to-host communication between applications on two different hosts</td>
+        </tr>
+        <tr>
+            <td>network layer</td>
+            <td>the internet protocol layer; defines the end points of the packet where the packet starts at one
+                computer and the destination of the packet at the other end</td>
+        </tr>
+        <tr>
+            <td>link layer</td>
+            <td>the lowest layer in the internet protocol suite, the networking architecture of the Internet</td>
+        </tr>
+        <tr>
+            <th>Internet is...</th>
+        </tr>
+        <tr>
+            <td>packet-switching network</td>
+            <td>a network classified by the transfer of small pieces of data across various networks that allow for
+                faster, more efficient data transfer</td>
+        </tr>
+        <tr>
+            <td>fault tolerant</td>
+            <td>the ability of a system to continue operating without interruption when one or more of its components fail</td>
+        </tr>
+        <tr>
+            <td>redundant</td>
+            <td>the duplication fo critical components or functions of a system with the intention of increasing reliablility of the system; ex. back-up or fail safe</td>
+        </tr>
+        <tr>
+            <th>Cybersecurity</th>
+        </tr>
+        <tr>
+            <td>malware</td>
+            <td>malicious software that can be used to attack a computer system and its contents</td>
+        </tr>
+        <tr>
+            <td>virus</td>
+            <td>a software that infects a computer by inserting itself into programs that already reside in the machine</td>
+        </tr>
+        <tr>
+            <td>worm</td>
+            <td>an automous program that transfers itself through a network, taking up residence in computers and forwarding copies of itself to other computers</td>
+        </tr>
+        <tr>
+            <td>Trojan horse</td>
+            <td>a program that enters a comptuer system disguised as a desirable program, such as a game or useful utility package, that is willingly imported by the victim</td>
+        </tr>
+        <tr>
+            <td>spyware</td>
+            <td>software that collects information about activities at the computer on which it resides and reports that information back to the instigator of the attack</td>
+        </tr>
+        <tr>
+            <td>phishing</td>
+            <td>a technique of obtaining information explicitly by simply asking for it</td>
+        </tr>
+        <tr>
+            <td>DDoS attack</td>
+            <td>the process of overloading a computer with messages, stands for "Distributed Denial of Service"</td>
+        </tr>
+        <tr>
+            <th>Protection</th>
+        </tr>
+        <tr>
+            <td>firewall</td>
+            <td>a primary prevention technique used to filter traffic by passing it through a point in the network</td>
+        </tr>
+        <tr>
+            <td>spam filter</td>
+            <td>a variation of a firewall, which uses rather sophisticated techniques to distinguish between desirable email and spam</td>
+        </tr>
+        <tr>
+            <td>proxy server</td>
+            <td>a software unit that acts as an intermediary between a client and a server with the goal of shielding the client from adverse actions of the server</td>
+        </tr>
+        <tr>
+            <td>antivirus software</td>
+            <td>a software which is used to detect and remove a specific type of infection</td>
+        </tr>
+        <tr>
+            <td>cryptography</td>
+            <td>the process to secure information and communication techniques derived from mathematical concepts and a set of rule-based calculations called algorithms, to transform messages in ways that are hard to decipher</td>
+        </tr>
+        <tr>
+            <td>public key encryption</td>
+            <td>a type of encryption which involves techniques by which encryption systems are designed so that having knowledge about how messages are encrypted does not allow one to decrypt messages</td>
+        </tr>
+
+    </table>
+</body>
